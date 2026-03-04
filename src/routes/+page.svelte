@@ -15,6 +15,6 @@ import background from '$lib/assets/beach.jpg'
 
 </main>
 
-<footer>
-
+<footer class="h-[300px] bg-blue-950 text-white flex justify-center items-center">
+<p>Test-Page for SEO</p>
 </footer>

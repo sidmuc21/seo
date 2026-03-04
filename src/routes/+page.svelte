@@ -7,7 +7,7 @@ import background from '$lib/assets/beach.jpg'
 </svelte:head>
 <header class="h-[500px] bg-center bg-cover flex items-center justify-center" style="background-image:url({background})">
 
-<h1 class="text-5xl text-white">Electronic Devices</h1>
+<h1 class="text-5xl text-white">Beaches 2026</h1>
 
 </header>
 

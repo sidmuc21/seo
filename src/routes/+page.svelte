@@ -23,7 +23,7 @@ export let data;
 
 
 <header class="h-[500px] bg-center bg-cover flex items-center justify-center "
-style="background-image: url({background})">
+style="background-image: url('https://res.cloudinary.com/dhhe3lytu/image/upload/v1772711408/photo-1764258560076-9530b22a1e8d_ptwwxe.avif')">
 
 <div class="text-center bg-green-400/50 p-8 rounded-xl backdrop-blur-sm shadow-xl">
 

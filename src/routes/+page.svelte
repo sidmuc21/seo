@@ -50,12 +50,12 @@ Available Devices
 </h2>
 </header>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="grslug grslug-cols-1 md:grslug-cols-3 gap-6">
 
     {#each data.products as product}
 
     <div class="rounded-sm p-5 bg-gray-200 shadow-xl">
-    
+    <a href={`product/${product.slug}`} class="flex items-center gap-4">
     <img 
     src={product.image_url} 
     alt={product.name}
@@ -73,7 +73,7 @@ Available Devices
     <p class="text-green-600 mt-4">
     ${product.price}
     </p>
-    
+    </a>
     </div>
     
     {/each}
